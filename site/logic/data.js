@@ -1,11 +1,20 @@
 import { createSparkIndex } from "./spark.js";
 
 /** Loads the canonical package once and builds only in-memory lookup indexes. */
-export async function loadGuideData(dataBaseUrl = new URL("../../", import.meta.url)) {
+export async function loadGuideData(dataBaseUrl) {
+  // Local preview serves JSON one level above site/, while the Pages artifact
+  // places them beside index.html. Try both layouts without hard-coding a host.
+  const dataBaseUrls = dataBaseUrl
+    ? [dataBaseUrl]
+    : [new URL("../../", import.meta.url), new URL("../", import.meta.url)];
   const load = async (filename) => {
-    const response = await fetch(new URL(filename, dataBaseUrl));
-    if (!response.ok) throw new Error(`Could not load ${filename}: ${response.status}`);
-    return response.json();
+    let status = "network error";
+    for (const baseUrl of dataBaseUrls) {
+      const response = await fetch(new URL(filename, baseUrl));
+      if (response.ok) return response.json();
+      status = response.status;
+    }
+    throw new Error(`Could not load ${filename}: ${status}`);
   };
 
   const [charactersFile, classesFile, weaponsFile, techniquesFile, sparkTypesFile, sourcesFile] = await Promise.all([
