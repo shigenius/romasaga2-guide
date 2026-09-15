@@ -129,7 +129,7 @@ async function render() {
   const classInfo = guide.classById.get(character.classId);
   const sparkType = guide.sparkIndex.sparkTypeById.get(character.sparkTypeId);
   pageTitle.textContent = character.resolvedState?.name ?? character.name;
-  document.title = `${pageTitle.textContent} · RS2 キャラクターガイド`;
+  document.title = `${pageTitle.textContent} · ロマンシング サ・ガ2 キャラクター情報`;
   detail.replaceChildren();
 
   const heading = document.createElement("section");
