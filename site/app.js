@@ -41,6 +41,26 @@ function points(value) {
   return Number(value.toFixed(1));
 }
 
+function placePopover(item, evidence) {
+  const gap = 6;
+  const edge = 8;
+  const itemBounds = item.getBoundingClientRect();
+  const width = evidence.offsetWidth;
+  const height = evidence.offsetHeight;
+  const left = Math.min(Math.max(edge, itemBounds.left), window.innerWidth - width - edge);
+  let top = itemBounds.bottom + gap;
+  if (top + height > window.innerHeight - edge && itemBounds.top - height - gap >= edge) {
+    top = itemBounds.top - height - gap;
+  }
+  evidence.style.left = `${left}px`;
+  evidence.style.top = `${top}px`;
+}
+
+function showPopover(item, evidence) {
+  evidence.hidden = false;
+  placePopover(item, evidence);
+}
+
 function appendRecommendation(container, recommendation, character) {
   const key = `${character.id}:${recommendation.weapon.id}`;
   const button = document.createElement("button");
@@ -62,21 +82,20 @@ function appendRecommendation(container, recommendation, character) {
   item.className = "recommendation-item";
   item.append(button, evidence);
 
-  const showPopover = () => {
-    evidence.hidden = false;
-  };
+  const revealPopover = () => showPopover(item, evidence);
   const hidePopoverUnlessPinned = () => {
     if (expandedRecommendation !== key) evidence.hidden = true;
   };
-  item.addEventListener("pointerenter", showPopover);
+  item.addEventListener("pointerenter", revealPopover);
   item.addEventListener("pointerleave", hidePopoverUnlessPinned);
-  item.addEventListener("focusin", showPopover);
+  item.addEventListener("focusin", revealPopover);
   item.addEventListener("focusout", hidePopoverUnlessPinned);
   button.addEventListener("click", () => {
     expandedRecommendation = expandedRecommendation === key ? null : key;
     render();
   });
   container.append(item);
+  if (expandedRecommendation === key) requestAnimationFrame(() => placePopover(item, evidence));
 }
 
 function appendMagicRecommendation(container, recommendation, character) {
@@ -98,19 +117,20 @@ function appendMagicRecommendation(container, recommendation, character) {
   const item = document.createElement("div");
   item.className = "recommendation-item";
   item.append(button, evidence);
-  const showPopover = () => { evidence.hidden = false; };
+  const revealPopover = () => showPopover(item, evidence);
   const hidePopoverUnlessPinned = () => {
     if (expandedRecommendation !== key) evidence.hidden = true;
   };
-  item.addEventListener("pointerenter", showPopover);
+  item.addEventListener("pointerenter", revealPopover);
   item.addEventListener("pointerleave", hidePopoverUnlessPinned);
-  item.addEventListener("focusin", showPopover);
+  item.addEventListener("focusin", revealPopover);
   item.addEventListener("focusout", hidePopoverUnlessPinned);
   button.addEventListener("click", () => {
     expandedRecommendation = expandedRecommendation === key ? null : key;
     render();
   });
   container.append(item);
+  if (expandedRecommendation === key) requestAnimationFrame(() => placePopover(item, evidence));
 }
 
 function appendNoRecommendation(container) {
@@ -200,6 +220,14 @@ function render() {
 try {
   guide = await loadGuideData();
   render();
+  window.addEventListener("scroll", () => {
+    expandedRecommendation = null;
+    document.querySelectorAll(".recommendation-evidence").forEach((evidence) => { evidence.hidden = true; });
+  }, { capture: true, passive: true });
+  window.addEventListener("resize", () => {
+    expandedRecommendation = null;
+    document.querySelectorAll(".recommendation-evidence").forEach((evidence) => { evidence.hidden = true; });
+  }, { passive: true });
   searchInput.addEventListener("input", render);
   for (const button of sortButtons) {
     button.addEventListener("click", () => {
