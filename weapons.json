@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "weapons": [
+    {
+      "id": "sword",
+      "name": "剣",
+      "damageStatIds": ["str"],
+      "initialLevelOffsetKey": "slash"
+    },
+    {
+      "id": "greatsword",
+      "name": "大剣",
+      "damageStatIds": ["str"],
+      "initialLevelOffsetKey": "slash"
+    },
+    {
+      "id": "axe",
+      "name": "斧",
+      "damageStatIds": ["str"],
+      "initialLevelOffsetKey": "bash"
+    },
+    {
+      "id": "mace",
+      "name": "棍棒",
+      "damageStatIds": ["str"],
+      "initialLevelOffsetKey": "bash"
+    },
+    {
+      "id": "spear",
+      "name": "槍",
+      "damageStatIds": ["str"],
+      "initialLevelOffsetKey": "stab"
+    },
+    {
+      "id": "shortsword",
+      "name": "小剣",
+      "damageStatIds": ["dex"],
+      "initialLevelOffsetKey": "stab"
+    },
+    {
+      "id": "bow",
+      "name": "弓",
+      "damageStatIds": ["dex"],
+      "initialLevelOffsetKey": "shoot"
+    },
+    {
+      "id": "martial",
+      "name": "体術",
+      "damageStatIds": ["str", "spd"],
+      "initialLevelOffsetKey": "martial"
+    }
+  ]
+}

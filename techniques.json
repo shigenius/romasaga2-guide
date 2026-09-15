@@ -1,0 +1,1644 @@
+{
+  "schemaVersion": 1,
+  "techniques": [
+    {
+      "id": 0,
+      "name": "(通常攻撃：剣)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "(通常攻撃：大剣)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "(通常攻撃：斧)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "(通常攻撃：棍棒)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "(通常攻撃：槍)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "(通常攻撃：小剣)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "(通常攻撃：弓)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "(通常攻撃：爪)",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "パンチ",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ファイナルストライク",
+      "wp": 1,
+      "attack": 12,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "ダンシングソード",
+      "wp": 5,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "シャッタースタッフ(攻撃)",
+      "wp": 1,
+      "attack": 15,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "シャッタースタッフ(回復)",
+      "wp": 1,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "なぎ払い",
+      "wp": 0,
+      "attack": 2,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "パリイ",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "二段斬り",
+      "wp": 2,
+      "attack": 3,
+      "hitCount": 2,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "短冊斬り",
+      "wp": 5,
+      "attack": 3,
+      "hitCount": 3,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "みじん斬り",
+      "wp": 4,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "線斬り",
+      "wp": 7,
+      "attack": 3,
+      "hitCount": 4,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "空圧波",
+      "wp": 5,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "十文字斬り",
+      "wp": 3,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "つむじ風",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "音速剣",
+      "wp": 5,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "光速剣",
+      "wp": 8,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "真空斬り",
+      "wp": 10,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "残像剣",
+      "wp": 7,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "不動剣",
+      "wp": 14,
+      "attack": 14,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "落月破斬",
+      "wp": 1,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "プロミネンス斬",
+      "wp": 4,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "風狼剣",
+      "wp": 1,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "咬竜剣",
+      "wp": 7,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "サクション",
+      "wp": 4,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "分子分解",
+      "wp": 5,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "スウォーム",
+      "wp": 4,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "カマイタチ",
+      "wp": 2,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "稲妻斬り",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "sword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "みね打ち",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "巻き打ち",
+      "wp": 1,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "強撃",
+      "wp": 3,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "ディフレクト",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "切り落とし",
+      "wp": 5,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "ツバメ返し",
+      "wp": 9,
+      "attack": 5,
+      "hitCount": 2,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "水鳥剣",
+      "wp": 6,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "無無剣",
+      "wp": 5,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "無明剣",
+      "wp": 13,
+      "attack": 14,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "流し斬り",
+      "wp": 7,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "乱れ雪月花",
+      "wp": 12,
+      "attack": 12,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "清流剣",
+      "wp": 7,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "活人剣",
+      "wp": 15,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "雷殺斬",
+      "wp": 3,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "聖光",
+      "wp": 2,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "月影",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "一刀両断",
+      "wp": 9,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "退魔神剣",
+      "wp": 4,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "殺虫剣",
+      "wp": 3,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "殺人剣",
+      "wp": 6,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "greatsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "アクスボンバー",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "トマホーク",
+      "wp": 1,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "一人時間差",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "ヨーヨー",
+      "wp": 3,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "大木断",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "ブレードロール",
+      "wp": 8,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "次元断",
+      "wp": 9,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "高速ナブラ",
+      "wp": 9,
+      "attack": 5,
+      "hitCount": 3,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "マキ割りスペシャル",
+      "wp": 8,
+      "attack": 11,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "スカイドライブ",
+      "wp": 11,
+      "attack": 15,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "フェザーシール",
+      "wp": 1,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "電光ブーメラン",
+      "wp": 1,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "死の舞い",
+      "wp": 9,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "幻体戦士法",
+      "wp": 10,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "デストラクション",
+      "wp": 7,
+      "attack": 11,
+      "hitCount": 1,
+      "weaponId": "axe",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "返し突き",
+      "wp": 0,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "脳天割り",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "骨砕き",
+      "wp": 5,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "削岩撃",
+      "wp": 5,
+      "attack": 4,
+      "hitCount": 3,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "ダブルヒット",
+      "wp": 4,
+      "attack": 4,
+      "hitCount": 2,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "地裂撃",
+      "wp": 5,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "グランドスラム",
+      "wp": 7,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "オゾンビート",
+      "wp": 5,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "フルフラット",
+      "wp": 6,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "かめごうら割り",
+      "wp": 12,
+      "attack": 11,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 88,
+      "name": "ウェアバスター",
+      "wp": 1,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 89,
+      "name": "動くな",
+      "wp": 3,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 90,
+      "name": "スペルエンハンス",
+      "wp": 1,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 91,
+      "name": "祝福",
+      "wp": 2,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 93,
+      "name": "グランドバスター",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "mace",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 94,
+      "name": "足払い",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 95,
+      "name": "二段突き",
+      "wp": 2,
+      "attack": 3,
+      "hitCount": 2,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 96,
+      "name": "稲妻突き",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 97,
+      "name": "くし刺し",
+      "wp": 4,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 98,
+      "name": "チャージ",
+      "wp": 3,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 99,
+      "name": "エイミング",
+      "wp": 1,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 100,
+      "name": "風車",
+      "wp": 2,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 101,
+      "name": "一文字突き",
+      "wp": 5,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "活殺化石衝",
+      "wp": 6,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 103,
+      "name": "スパイラルチャージ",
+      "wp": 10,
+      "attack": 11,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "活殺獣神衝",
+      "wp": 8,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 105,
+      "name": "無双三段",
+      "wp": 9,
+      "attack": 13,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 106,
+      "name": "ポセイドンシュート",
+      "wp": 2,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 107,
+      "name": "サンダーボルト",
+      "wp": 5,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "下り飛竜",
+      "wp": 10,
+      "attack": 15,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 109,
+      "name": "サイコバインド",
+      "wp": 6,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "spear",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 112,
+      "name": "フェイント",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 113,
+      "name": "感電衝",
+      "wp": 1,
+      "attack": 2,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 114,
+      "name": "サイドワインダー",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "マリオネット",
+      "wp": 6,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 116,
+      "name": "スネークショット",
+      "wp": 6,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 117,
+      "name": "マタドール",
+      "wp": 2,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 118,
+      "name": "乱れ突き",
+      "wp": 8,
+      "attack": 4,
+      "hitCount": 3,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 119,
+      "name": "プラズマスラスト",
+      "wp": 4,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 120,
+      "name": "スクリュードライバ",
+      "wp": 6,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 121,
+      "name": "幻惑剣",
+      "wp": 8,
+      "attack": 9,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 122,
+      "name": "ファイナルレター",
+      "wp": 10,
+      "attack": 12,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 124,
+      "name": "マッドバイター",
+      "wp": 1,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 126,
+      "name": "火龍出水",
+      "wp": 6,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "百花繚乱",
+      "wp": 7,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "shortsword",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "瞬速の矢",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 134,
+      "name": "でたらめ矢",
+      "wp": 2,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 135,
+      "name": "影ぬい",
+      "wp": 1,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 136,
+      "name": "ビーストスレイヤー",
+      "wp": 4,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 137,
+      "name": "アローレイン",
+      "wp": 4,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 138,
+      "name": "二本射ち",
+      "wp": 2,
+      "attack": 3,
+      "hitCount": 2,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 139,
+      "name": "イド・ブレイク",
+      "wp": 3,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "影矢",
+      "wp": 8,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "バラージシュート",
+      "wp": 10,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 142,
+      "name": "落鳳破",
+      "wp": 5,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 143,
+      "name": "イヅナ",
+      "wp": 10,
+      "attack": 12,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "ハートシーカー",
+      "wp": 2,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 145,
+      "name": "皆死ね矢",
+      "wp": 7,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "スターライトアロー",
+      "wp": 8,
+      "attack": 11,
+      "hitCount": 1,
+      "weaponId": "bow",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 149,
+      "name": "キック",
+      "wp": 0,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 150,
+      "name": "ソバット",
+      "wp": 2,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "カウンター",
+      "wp": 0,
+      "attack": 6,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "ネコだまし",
+      "wp": 0,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "集気法",
+      "wp": 0,
+      "attack": 3,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 154,
+      "name": "気弾",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "コークスクリュー",
+      "wp": 4,
+      "attack": 8,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "不動金しばり",
+      "wp": 2,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 157,
+      "name": "カポエラキック",
+      "wp": 6,
+      "attack": 9,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 158,
+      "name": "マシンガンジャブ",
+      "wp": 6,
+      "attack": 6,
+      "hitCount": 2,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 159,
+      "name": "ジョルトカウンター",
+      "wp": 3,
+      "attack": 9,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 160,
+      "name": "クワドラブル",
+      "wp": 9,
+      "attack": 12,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 161,
+      "name": "活殺破邪法",
+      "wp": 8,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 162,
+      "name": "千手観音",
+      "wp": 12,
+      "attack": 9,
+      "hitCount": 2,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 163,
+      "name": "サラマンダークロー",
+      "wp": 1,
+      "attack": 4,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "赤竜波",
+      "wp": 4,
+      "attack": 7,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 167,
+      "name": "ふみつけ",
+      "wp": 16,
+      "attack": 10,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 196,
+      "name": "ベルセルク",
+      "wp": 8,
+      "attack": 0,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "地獄爪殺法",
+      "wp": 3,
+      "attack": 5,
+      "hitCount": 1,
+      "weaponId": "martial",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    }
+  ]
+}

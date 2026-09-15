@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ロマンシング サ・ガ2の仲間キャラクター向け武器ガイド">
+    <title>RS2 キャラクターガイド</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2311192c'/%3E%3Cpath d='M17 46 42 16l6 6-25 30z' fill='%23e9b758'/%3E%3Cpath d='m14 50 7-7 4 4-7 7z' fill='%23f5dfaa'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>キャラクターガイド</h1>
+      <p class="header-links"><a href="formula.html">計算式</a></p>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="キャラクターを絞り込む">
+        <label class="search-field">
+          <span>キャラクター・クラスを検索</span>
+          <input id="search" type="search" autocomplete="off" placeholder="例：ジュウベイ、イーストガード">
+        </label>
+        <button id="reset" class="reset-button" type="button">初期表示に戻す</button>
+      </section>
+
+      <p id="result-summary" class="result-summary" aria-live="polite"></p>
+      <div class="table-wrapper" tabindex="0" aria-label="横にスクロールできるキャラクター表">
+        <table class="character-table">
+          <thead>
+            <tr>
+              <th><button class="header-sort" type="button" data-sort="class" data-label="クラス">クラス</button></th>
+              <th><button class="header-sort" type="button" data-sort="name" data-label="キャラクター">キャラクター</button></th>
+              <th><button class="header-sort" type="button" data-sort="lp" data-label="LP">LP</button></th>
+              <th><button class="header-sort" type="button" data-sort="str" data-label="腕">腕</button></th>
+              <th><button class="header-sort" type="button" data-sort="dex" data-label="器">器</button></th>
+              <th><button class="header-sort" type="button" data-sort="mag" data-label="魔">魔</button></th>
+              <th><button class="header-sort" type="button" data-sort="logic" data-label="理">理</button></th>
+              <th><button class="header-sort" type="button" data-sort="spd" data-label="速">速</button></th>
+              <th><button class="header-sort" type="button" data-sort="vit" data-label="体">体</button></th>
+              <th>おすすめ武器</th><th>おすすめ術</th>
+            </tr>
+          </thead>
+          <tbody id="character-list" aria-live="polite">
+            <tr><td class="loading" colspan="11">データを読み込んでいます…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <template id="character-template">
+      <tr class="character-row">
+        <td class="class-name"></td>
+        <th scope="row"><a class="character-name"></a></th>
+        <td class="lp-value"></td>
+        <td class="stat-value" data-stat="str"></td>
+        <td class="stat-value" data-stat="dex"></td>
+        <td class="stat-value" data-stat="mag"></td>
+        <td class="stat-value" data-stat="logic"></td>
+        <td class="stat-value" data-stat="spd"></td>
+        <td class="stat-value" data-stat="vit"></td>
+        <td><div class="recommendations" aria-label="物理武器の候補"></div></td>
+        <td><div class="magic-recommendations" aria-label="おすすめ術"></div></td>
+      </tr>
+    </template>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

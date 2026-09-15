@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "classes": [
+    {
+      "id": "imperial_heavy_infantry",
+      "name": "帝国重装歩兵",
+      "sourceSymbol": "HeavyInfantry",
+      "displayOrder": 0,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_light_infantry_m",
+      "name": "帝国軽装歩兵(男)",
+      "sourceSymbol": "LightInfantryM",
+      "displayOrder": 1,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_light_infantry_f",
+      "name": "帝国軽装歩兵(女)",
+      "sourceSymbol": "LightInfantryF",
+      "displayOrder": 2,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_ranger_m",
+      "name": "帝国猟兵(男)",
+      "sourceSymbol": "RangerM",
+      "displayOrder": 3,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_ranger_f",
+      "name": "帝国猟兵(女)",
+      "sourceSymbol": "RangerF",
+      "displayOrder": 4,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "court_mage_m",
+      "name": "宮廷魔術師(男)",
+      "sourceSymbol": "CourtMageM",
+      "displayOrder": 5,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "court_mage_f",
+      "name": "宮廷魔術師(女)",
+      "sourceSymbol": "CourtMageF",
+      "displayOrder": 6,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "free_fighter_m",
+      "name": "フリーファイター(男)",
+      "sourceSymbol": "MercenaryM",
+      "displayOrder": 7,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "free_fighter_f",
+      "name": "フリーファイター(女)",
+      "sourceSymbol": "MercenaryF",
+      "displayOrder": 8,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "free_mage_m",
+      "name": "フリーメイジ(男)",
+      "sourceSymbol": "MageForHireM",
+      "displayOrder": 9,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "free_mage_f",
+      "name": "フリーメイジ(女)",
+      "sourceSymbol": "MageForHireF",
+      "displayOrder": 10,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_guard_m",
+      "name": "インペリアルガード(男)",
+      "sourceSymbol": "ImperialGuardM",
+      "displayOrder": 11,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "imperial_guard_f",
+      "name": "インペリアルガード(女)",
+      "sourceSymbol": "ImperialGuardF",
+      "displayOrder": 12,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "strategist",
+      "name": "軍師",
+      "sourceSymbol": "Strategist",
+      "displayOrder": 13,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "east_guard",
+      "name": "イーストガード",
+      "sourceSymbol": "LevanteGuard",
+      "displayOrder": 14,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "desert_guard",
+      "name": "デザートガード",
+      "sourceSymbol": "DesertGuard",
+      "displayOrder": 15,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "アマゾネス",
+      "sourceSymbol": "Amazon",
+      "displayOrder": 16,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "hunter",
+      "name": "ハンター",
+      "sourceSymbol": "Hunter",
+      "displayOrder": 17,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "nomad_m",
+      "name": "ノーマッド(男)",
+      "sourceSymbol": "NomadM",
+      "displayOrder": 18,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "nomad_f",
+      "name": "ノーマッド(女)",
+      "sourceSymbol": "NomadF",
+      "displayOrder": 19,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "holy_order_m",
+      "name": "ホーリーオーダー(男)",
+      "sourceSymbol": "CrusaderM",
+      "displayOrder": 20,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "holy_order_f",
+      "name": "ホーリーオーダー(女)",
+      "sourceSymbol": "CrusaderF",
+      "displayOrder": 21,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "diver",
+      "name": "海女",
+      "sourceSymbol": "Diver",
+      "displayOrder": 22,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "armed_merchant",
+      "name": "武装商船団",
+      "sourceSymbol": "ArmedMerchant",
+      "displayOrder": 23,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "saigo_clansman",
+      "name": "サイゴ族",
+      "sourceSymbol": "SaigoClansman",
+      "displayOrder": 24,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "brawler",
+      "name": "格闘家",
+      "sourceSymbol": "Brawler",
+      "displayOrder": 25,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "city_thief_m",
+      "name": "シティシーフ(男)",
+      "sourceSymbol": "VagabondM",
+      "displayOrder": 26,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "city_thief_f",
+      "name": "シティシーフ(女)",
+      "sourceSymbol": "VagabondF",
+      "displayOrder": 27,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "salamander",
+      "name": "サラマンダー",
+      "sourceSymbol": "Salamander",
+      "displayOrder": 28,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "mole",
+      "name": "モール",
+      "sourceSymbol": "Mole",
+      "displayOrder": 29,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "nereid",
+      "name": "ネレイド",
+      "sourceSymbol": "Nereid",
+      "displayOrder": 30,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "iris",
+      "name": "イーリス",
+      "sourceSymbol": "Iris",
+      "displayOrder": 31,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    },
+    {
+      "id": "ninja",
+      "name": "忍者",
+      "sourceSymbol": null,
+      "displayOrder": 32,
+      "edition": "remaster_added",
+      "provenance": [
+        "gamecentergx_remaster_classes",
+        "appmedia_ninja"
+      ]
+    },
+    {
+      "id": "onmyoji",
+      "name": "陰陽師",
+      "sourceSymbol": null,
+      "displayOrder": 33,
+      "edition": "remaster_added",
+      "provenance": [
+        "gamecentergx_remaster_classes",
+        "tebiki_onmyoji"
+      ]
+    },
+    {
+      "id": "special",
+      "name": "固有キャラ",
+      "sourceSymbol": "SpecialChara",
+      "displayOrder": 34,
+      "edition": "sfc_remaster_common",
+      "provenance": [
+        "github_ossan_pg_repository_elm"
+      ]
+    }
+  ]
+}

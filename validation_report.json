@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-09-15",
+  "knownSourceConflicts": [
+    {
+      "id": "nakamaro-str-dex",
+      "canonicalRef": "characters.json#remaster-onmyoji-08",
+      "fields": [
+        "stats.str",
+        "stats.dex"
+      ],
+      "conflictingObservations": [
+        {
+          "source": "gamecentergx_remaster_classes",
+          "values": {
+            "stats.str": 18,
+            "stats.dex": 20
+          }
+        },
+        {
+          "source": "appmedia_onmyoji",
+          "values": {
+            "stats.str": 18,
+            "stats.dex": 20
+          }
+        }
+      ],
+      "canonicalDecision": "canonical 値は characters.json のみを参照。攻略の手引き・Taumax・romasaga2apli Wiki が一致し、後発リメイク系データでも同じ並びを確認できるため、その側を採用。",
+      "supportingSources": [
+        "tebiki_onmyoji",
+        "taumax_status_list",
+        "wikiwiki_onmyoji"
+      ]
+    }
+  ],
+  "namingNotes": [
+    {
+      "topic": "martial spark type labels",
+      "note": "攻略サイト間で『体術A/B』の呼称対応が揺れるため、canonical ID は martial_1 / martial_2 とし、A/B 表示名をデータに固定していない。技集合そのものを真実源とする。"
+    }
+  ],
+  "policy": {
+    "derivedValuesStored": false,
+    "recommendationsStored": false,
+    "sparkCoverageStored": false,
+    "duplicateVariantBaseValues": false
+  }
+}

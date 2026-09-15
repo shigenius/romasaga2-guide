@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "retrievedOn": "2026-09-15",
+  "sources": [
+    {
+      "id": "github_ossan_pg_repository_elm",
+      "name": "ossan-pg/romasaga2_spark Repository.elm",
+      "url": "https://github.com/ossan-pg/romasaga2_spark/blob/master/app/src/Repository.elm",
+      "scope": [
+        "base_character_stats",
+        "lp",
+        "initial_level_offsets",
+        "spark_type_assignment",
+        "techniques",
+        "spark_type_technique_sets"
+      ],
+      "edition": "sfc",
+      "revision": {
+        "gitSha": "2a2dfe5bfb709e685c72cb3323f357f5046c4204"
+      },
+      "note": "機械可読な一次収集元。通常32クラス×8人と固有5人、技、閃きタイプ別技集合を正規化するために使用。"
+    },
+    {
+      "id": "gamecentergx_standard_classes",
+      "name": "GameCenterGX クラス（仲間キャラクター）",
+      "url": "https://gcgx.games/rs2/class.html",
+      "scope": [
+        "standard_character_crosscheck",
+        "field_semantics"
+      ],
+      "edition": "sfc_remaster",
+      "note": "能力値、技/術Lv、閃きタイプの照合元。"
+    },
+    {
+      "id": "gamecentergx_remaster_classes",
+      "name": "GameCenterGX 追加クラス（陰陽師・忍者）",
+      "url": "https://gcgx.games/rs2/re/class.html",
+      "scope": [
+        "ninja",
+        "onmyoji",
+        "initial_level_offsets",
+        "spark_type_assignment"
+      ],
+      "edition": "remaster",
+      "note": "追加16人の主要収集元。ただしナカマロの腕力・器用さは他複数ソースと不一致のため canonical には採用していない。"
+    },
+    {
+      "id": "gamecentergx_unique_characters",
+      "name": "GameCenterGX 固有キャラ",
+      "url": "https://gcgx.games/rs2/character.html",
+      "scope": [
+        "unique_characters",
+        "gerard_armored_variant"
+      ],
+      "edition": "sfc_remaster"
+    },
+    {
+      "id": "gamecentergx_spark_types_crosscheck",
+      "name": "GameCenterGX 閃きタイプ・閃き適正",
+      "url": "https://gcgx.games/rs2/type.html",
+      "scope": [
+        "spark_type_crosscheck"
+      ],
+      "edition": "sfc_remaster"
+    },
+    {
+      "id": "appmedia_ninja",
+      "name": "AppMedia 忍者のステータスと閃き適性",
+      "url": "https://appmedia.jp/romasaga2r/78213923",
+      "scope": [
+        "ninja_stats",
+        "ninja_initial_level_offsets"
+      ],
+      "edition": "remaster"
+    },
+    {
+      "id": "tebiki_onmyoji",
+      "name": "ロマサガ2 攻略の手引き 陰陽師",
+      "url": "https://romasaga2tebiki.seesaa.net/article/196137118.html",
+      "scope": [
+        "onmyoji_stats",
+        "onmyoji_initial_level_offsets"
+      ],
+      "edition": "mobile_remaster"
+    },
+    {
+      "id": "taumax_status_list",
+      "name": "Taumax ロマサガ2 ステータス一覧",
+      "url": "https://taumax-github.github.io/sagamax/contents/romasaga2/charas/status_list.html",
+      "scope": [
+        "onmyoji_stats_crosscheck"
+      ],
+      "edition": "sfc_remaster",
+      "note": "ナカマロを含む追加キャラの能力値照合に使用。"
+    },
+    {
+      "id": "wikiwiki_ninja",
+      "name": "romasaga2apli Wiki 忍者",
+      "url": "https://wikiwiki.jp/romasaga2/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/%E5%BF%8D%E8%80%85",
+      "scope": [
+        "ninja_crosscheck"
+      ],
+      "edition": "mobile_remaster"
+    },
+    {
+      "id": "wikiwiki_onmyoji",
+      "name": "romasaga2apli Wiki 陰陽師",
+      "url": "https://wikiwiki.jp/romasaga2/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/%E9%99%B0%E9%99%BD%E5%B8%AB",
+      "scope": [
+        "onmyoji_crosscheck"
+      ],
+      "edition": "mobile_remaster"
+    },
+    {
+      "id": "appmedia_onmyoji",
+      "name": "AppMedia 陰陽師のステータスと閃き適性",
+      "url": "https://appmedia.jp/romasaga2r/78213920",
+      "scope": [
+        "onmyoji_stats_crosscheck",
+        "onmyoji_initial_level_offsets"
+      ],
+      "edition": "remaster",
+      "note": "ナカマロの腕力・器用さは GameCenterGX と同じ別値を掲載。"
+    }
+  ]
+}
